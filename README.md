@@ -1,4 +1,4 @@
-from web3 import Web3
+
 from ens import ENS
 
 RPC_URL = "https://eth.llamarpc.com"
