@@ -50,7 +50,7 @@ def main():
     name = reverse_resolve(wallet)
 
     if name:
-        print(f"Address: {wallet}")
+        print(f"Address: {}")
         print(f"ENS:     {name}")
     else:
         print("No ENS name found.")
