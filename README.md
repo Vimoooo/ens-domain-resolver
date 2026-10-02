@@ -6,7 +6,7 @@ RPC_URL = "https://eth.llamarpc.com"
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
 ns = ENS(w3)
 
-def resolve_ens(domain):
+def resolve_ens():
     address = ns.address(domain)
 
     if address is None:
