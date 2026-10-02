@@ -1,7 +1,7 @@
 from web3 import Web3
 from ens import ENS
 
-RPC_URL = ""
+RPC_URL = "https://eth.llamarpc.com"
 
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
 ns = ENS(w3)
